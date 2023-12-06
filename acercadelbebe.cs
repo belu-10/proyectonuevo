@@ -136,5 +136,10 @@ namespace ProyectoBebe
             textBox1.Text = Program.nombre[Program.i];
             label4.Visible = false; 
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

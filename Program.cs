@@ -12,7 +12,7 @@ namespace ProyectoBebe
         /// Punto de entrada principal para la aplicación.
         /// </summary>
 
-        public static List<string> nombre = new List<string>();
+        public static List<string> nombre = new List<string>();  
         public static List<string> foto = new List<string>();
         public static int indice = 0; 
 
