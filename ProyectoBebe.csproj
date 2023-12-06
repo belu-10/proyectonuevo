@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{728ECCC6-6C4B-4E8F-B743-573A78B33223}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoBebe</RootNamespace>
+    <AssemblyName>ProyectoBebe</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acercadelbebe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acercadelbebe.Designer.cs">
+      <DependentUpon>acercadelbebe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calendar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calendar2.Designer.cs">
+      <DependentUpon>calendar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calendario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calendario.Designer.cs">
+      <DependentUpon>calendario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cuannaciobb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cuannaciobb.Designer.cs">
+      <DependentUpon>cuannaciobb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datosdelperfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datosdelperfil.Designer.cs">
+      <DependentUpon>datosdelperfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formalbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formalbum.Designer.cs">
+      <DependentUpon>Formalbum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formdiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formdiario.Designer.cs">
+      <DependentUpon>formdiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formelegirbebe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formelegirbebe.Designer.cs">
+      <DependentUpon>formelegirbebe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formextra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formextra.Designer.cs">
+      <DependentUpon>formextra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formhelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formhelp.Designer.cs">
+      <DependentUpon>formhelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formhijoiniciar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formhijoiniciar.Designer.cs">
+      <DependentUpon>formhijoiniciar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forminsesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forminsesion.Designer.cs">
+      <DependentUpon>forminsesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formmomento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formmomento.Designer.cs">
+      <DependentUpon>formmomento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formnuevorecuerdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formnuevorecuerdo.Designer.cs">
+      <DependentUpon>formnuevorecuerdo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formperfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formperfil.Designer.cs">
+      <DependentUpon>formperfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formrecuerdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formrecuerdo.Designer.cs">
+      <DependentUpon>formrecuerdo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formregistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formregistrar.Designer.cs">
+      <DependentUpon>formregistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMSINUTILIDADSOLOPANEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMSINUTILIDADSOLOPANEL.Designer.cs">
+      <DependentUpon>FORMSINUTILIDADSOLOPANEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nombrebebe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nombrebebe.Designer.cs">
+      <DependentUpon>nombrebebe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuevanotdiar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuevanotdiar.Designer.cs">
+      <DependentUpon>nuevanotdiar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="perfilhijo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perfilhijo.Designer.cs">
+      <DependentUpon>perfilhijo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucalbum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucalbum.Designer.cs">
+      <DependentUpon>ucalbum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucuser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucuser.Designer.cs">
+      <DependentUpon>ucuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="veralbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="veralbum.Designer.cs">
+      <DependentUpon>veralbum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="verdiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verdiario.Designer.cs">
+      <DependentUpon>verdiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_proyecto11___copiaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_proyecto11___copiaDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="acercadelbebe.resx">
+      <DependentUpon>acercadelbebe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calendar2.resx">
+      <DependentUpon>calendar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calendario.resx">
+      <DependentUpon>calendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cuannaciobb.resx">
+      <DependentUpon>cuannaciobb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datosdelperfil.resx">
+      <DependentUpon>datosdelperfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formalbum.resx">
+      <DependentUpon>Formalbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formdiario.resx">
+      <DependentUpon>formdiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formelegirbebe.resx">
+      <DependentUpon>formelegirbebe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formextra.resx">
+      <DependentUpon>formextra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formhelp.resx">
+      <DependentUpon>formhelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formhijoiniciar.resx">
+      <DependentUpon>formhijoiniciar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forminsesion.resx">
+      <DependentUpon>forminsesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formmomento.resx">
+      <DependentUpon>formmomento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formnuevorecuerdo.resx">
+      <DependentUpon>formnuevorecuerdo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formperfil.resx">
+      <DependentUpon>formperfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formrecuerdo.resx">
+      <DependentUpon>formrecuerdo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formregistrar.resx">
+      <DependentUpon>formregistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMSINUTILIDADSOLOPANEL.resx">
+      <DependentUpon>FORMSINUTILIDADSOLOPANEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nombrebebe.resx">
+      <DependentUpon>nombrebebe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuevanotdiar.resx">
+      <DependentUpon>nuevanotdiar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perfilhijo.resx">
+      <DependentUpon>perfilhijo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucalbum.resx">
+      <DependentUpon>ucalbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucuser.resx">
+      <DependentUpon>ucuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="veralbum.resx">
+      <DependentUpon>veralbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verdiario.resx">
+      <DependentUpon>verdiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_proyecto11___copiaDataSet.xsc">
+      <DependentUpon>_proyecto11___copiaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_proyecto11___copiaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_proyecto11___copiaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_proyecto11___copiaDataSet.xss">
+      <DependentUpon>_proyecto11___copiaDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ropa-bebe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="proyecto11 - copia.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

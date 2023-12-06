@@ -1,0 +1,187 @@
+C:\Users\48796306\source\repos\ProyectoBebe\bin\Debug\ProyectoBebe.exe.config
+C:\Users\48796306\source\repos\ProyectoBebe\bin\Debug\ProyectoBebe.exe
+C:\Users\48796306\source\repos\ProyectoBebe\bin\Debug\ProyectoBebe.pdb
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.Form1.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.Formalbum.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.Properties.Resources.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.GenerateResource.cache
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.forminsesion.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.formnaciobebe.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.ucalbum.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.formrecuerdo.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.formhijoiniciar.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.cuannaciobb.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.nombrebebe.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.formelegir.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.formregistrar.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.ucuser.resources
+C:\Users\48796306\source\repos\ProyectoBebe\obj\Debug\ProyectoBebe.acercadelbebe.resources
+C:\Users\belus\Downloads\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\belus\Downloads\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\belus\Downloads\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.exe.config
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.exe
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.acercadelbebe.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.calendario.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.cuannaciobb.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Form1.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Formalbum.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formdiario.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formelegir.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formhijoiniciar.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.forminsesion.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formrecuerdo.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formregistrar.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.FORMSINUTILIDADSOLOPANEL.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.nombrebebe.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Properties.Resources.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.ucalbum.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.ucuser.resources
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.GenerateResource.cache
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\ProyectoBebe (zipbelu2-11)\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.nuevanotdiar.resources
+C:\Users\belus\Downloads\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\belus\Downloads\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\belus\Downloads\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.acercadelbebe.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.calendario.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.cuannaciobb.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Form1.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Formalbum.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formdiario.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formelegir.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formextra.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formhijoiniciar.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.forminsesion.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formperfil.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formrecuerdo.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formregistrar.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.FORMSINUTILIDADSOLOPANEL.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.nombrebebe.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.nuevanotdiar.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Properties.Resources.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.ucalbum.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.ucuser.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.veralbum.resources
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.GenerateResource.cache
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.exe.config
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.exe
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formelegirbebe.resources
+C:\Users\belus\Downloads\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\belus\Downloads\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\belus\Downloads\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.exe.config
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.exe
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\bin\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.acercadelbebe.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.calendario.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.cuannaciobb.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.datosdelperfil.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Form1.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Formalbum.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formdiario.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formelegirbebe.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formextra.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formhijoiniciar.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.forminsesion.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formperfil.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formrecuerdo.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.formregistrar.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.FORMSINUTILIDADSOLOPANEL.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.nombrebebe.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.nuevanotdiar.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.perfilhijo.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.Properties.Resources.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.ucalbum.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.ucuser.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.veralbum.resources
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.GenerateResource.cache
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\bin\Debug\proyecto11 - copia.accdb
+C:\Users\48796306\Downloads\proyecton25 (2)\proy-elultimo\proy-esperoqelultimo\proyectonumeromilbaby\ProyectoBebe\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\proyecto11 - copia.accdb
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\ProyectoBebe.exe.config
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\ProyectoBebe.exe
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\ProyectoBebe.pdb
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.acercadelbebe.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.calendario.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.cuannaciobb.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.datosdelperfil.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.Form1.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.Formalbum.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formdiario.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formelegirbebe.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formextra.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formhijoiniciar.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.forminsesion.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formperfil.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formrecuerdo.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formregistrar.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.FORMSINUTILIDADSOLOPANEL.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.nombrebebe.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.nuevanotdiar.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.perfilhijo.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.Properties.Resources.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.ucalbum.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.ucuser.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.veralbum.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.GenerateResource.cache
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formnuevorecuerdo.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formhelp.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formmomento.resources
+C:\Users\belus\OneDrive\Escritorio\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.UserControl1.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\proyecto11 - copia.accdb
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\ProyectoBebe.exe.config
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\ProyectoBebe.exe
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\bin\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.acercadelbebe.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.calendario.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.cuannaciobb.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.datosdelperfil.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.Form1.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.Formalbum.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formdiario.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formelegirbebe.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formextra.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formhelp.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formhijoiniciar.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.forminsesion.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formmomento.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formnuevorecuerdo.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formperfil.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formrecuerdo.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.formregistrar.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.FORMSINUTILIDADSOLOPANEL.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.nombrebebe.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.nuevanotdiar.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.perfilhijo.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.Properties.Resources.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.ucalbum.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.ucuser.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.UserControl1.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.veralbum.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.verdiario.resources
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.GenerateResource.cache
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.exe
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\48796306\Source\Repos\belu-10\PROYECTO-DEFINITIVO\ProyectoBebe\obj\Debug\ProyectoBebe.calendar2.resources
