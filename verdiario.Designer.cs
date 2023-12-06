@@ -70,9 +70,8 @@ namespace ProyectoBebe
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(198, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 50;
-            this.label1.Text = "label1";
             // 
             // btnDer
             // 
@@ -102,6 +101,7 @@ namespace ProyectoBebe
             this.button2.Size = new System.Drawing.Size(34, 83);
             this.button2.TabIndex = 52;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // verdiario
             // 

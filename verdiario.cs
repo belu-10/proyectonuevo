@@ -48,20 +48,33 @@ namespace ProyectoBebe
 
         private void btnDer_Click(object sender, EventArgs e)
         {
-           /* if (Program.nota == Program.nota.Count())
+            if (Program.iman == Program.nota.Count())
             {
                 Program.iman = 0;
             }
             else
             {
                 label1.Text = Program.nota[Program.iman];
+                Program.iman++;
             }
-           */
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (Program.iman == Program.nota.Count())
+            {
+                Program.iman = 0;
+            }
+            else
+            {
+                label1.Text = Program.nota[Program.iman];
+                Program.iman--;
+            }
         }
     }
 }
