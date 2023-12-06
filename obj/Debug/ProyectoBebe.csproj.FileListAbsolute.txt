@@ -221,3 +221,4 @@ C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.Gener
 C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
 C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.exe
 C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache

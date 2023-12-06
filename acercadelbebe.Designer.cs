@@ -51,12 +51,15 @@ namespace ProyectoBebe
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -142,10 +145,10 @@ namespace ProyectoBebe
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(587, 323);
+            this.pictureBox1.Size = new System.Drawing.Size(587, 322);
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -184,6 +187,8 @@ namespace ProyectoBebe
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.textBox4);
             this.panel1.Controls.Add(this.textBox3);
@@ -191,9 +196,9 @@ namespace ProyectoBebe
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button21);
             this.panel1.Controls.Add(this.button4);
-            this.panel1.Location = new System.Drawing.Point(1, 1);
+            this.panel1.Location = new System.Drawing.Point(-1, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(585, 325);
+            this.panel1.Size = new System.Drawing.Size(587, 322);
             this.panel1.TabIndex = 28;
             this.panel1.Visible = false;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
@@ -233,6 +238,7 @@ namespace ProyectoBebe
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(191, 20);
             this.textBox1.TabIndex = 30;
+            this.textBox1.Visible = false;
             // 
             // button2
             // 
@@ -242,9 +248,9 @@ namespace ProyectoBebe
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(89, 64);
+            this.button2.Location = new System.Drawing.Point(95, 50);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(413, 217);
+            this.button2.Size = new System.Drawing.Size(402, 228);
             this.button2.TabIndex = 29;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_2);
@@ -252,7 +258,7 @@ namespace ProyectoBebe
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Location = new System.Drawing.Point(121, 104);
+            this.pictureBox2.Location = new System.Drawing.Point(121, 103);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(55, 57);
             this.pictureBox2.TabIndex = 31;
@@ -304,6 +310,25 @@ namespace ProyectoBebe
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Location = new System.Drawing.Point(504, 10);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(35, 39);
+            this.pictureBox5.TabIndex = 37;
+            this.pictureBox5.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(379, 74);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 38;
+            this.label4.Text = "label4";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // acercadelbebe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -312,12 +337,12 @@ namespace ProyectoBebe
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(586, 327);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
@@ -333,6 +358,7 @@ namespace ProyectoBebe
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -360,5 +386,7 @@ namespace ProyectoBebe
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label4;
     }
 }

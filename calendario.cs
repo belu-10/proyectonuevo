@@ -21,14 +21,13 @@ namespace ProyectoBebe
 
         private void button5_Click(object sender, EventArgs e)
         {
-            /* panelvacunas.Visible = true;
-            panelcitamedica.Visible = false;
-            panelmedicamento.Visible = false;
-            panelnota.Visible = false; */
+            panelvacunas.Visible = true; 
 
-           
-            panelnota.Hide();
-            panelmedicamento.Hide();
+            panelnota.Visible = false;
+            panelmedicamento.Visible = false;
+
+            string fecha3 = dateTimePicker1.Text;
+            label3.Text = fecha3;
         }
 
         private void calendario_Load(object sender, EventArgs e)
@@ -38,19 +37,15 @@ namespace ProyectoBebe
 
         private void button3_Click(object sender, EventArgs e)
         {
-            /* panelcitamedica.Visible = true;
-           panelnota.Visible = false; 
-           panelmedicamento.Visible = false;
-           panelvacunas.Visible = false; */
+            panelmedicamento.Visible = true;
 
-            panelmedicamento.Hide();
-            panelnota.Hide();
+            panelnota.Visible = false;
+            panelcitamedica.Visible = false;
+            panelvacunas.Visible = false; 
 
             string fecha = dateTimePicker1.Text;
-            label1.Text = fecha;
-
-            //string especialidad = textBox1.Text;
-            //label4.Text = ("Especialidad: " + especialidad);
+            label2.Text = fecha;
+        
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -141,9 +136,13 @@ namespace ProyectoBebe
         {
             panelmedicamento.Visible = true;
 
+            panelnota.Visible = false;
+            panelvacunas.Visible = false; 
 
             string fechamedicamento = dateTimePicker1.Text;
-            label4.Text = fechamedicamento;
+            label1.Text = fechamedicamento;
+
+            //ESTÁ BIEN
         }
 
         private void button19_Click(object sender, EventArgs e)
@@ -156,22 +155,12 @@ namespace ProyectoBebe
            
         }
 
-        private void panelvacunas_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button23_Click(object sender, EventArgs e)
         {
             groupBox1.Visible = true;
         }
 
         private void label1_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button10_Click_1(object sender, EventArgs e)
         {
             
         }
@@ -235,11 +224,6 @@ namespace ProyectoBebe
         {
                     }
 
-        private void button20_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void buttonguardarvac_Click(object sender, EventArgs e)
         {
             ; 
@@ -248,16 +232,6 @@ namespace ProyectoBebe
         private void buttonguardarcita_Click(object sender, EventArgs e)
         {
             ////panelrec.Visible = true; 
-        }
-
-        private void button15_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button14_Click_2(object sender, EventArgs e)
-        {
-            
         }
 
         private void button13_Click_2(object sender, EventArgs e)
@@ -312,23 +286,24 @@ namespace ProyectoBebe
 
         private void button19_Click_1(object sender, EventArgs e)
         {
-            REC.Visible = false; 
+            panelmedicamento.Visible = false; 
+
+            //ACA MEDICAMENTO
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            comboBox2.Visible = true;
-            textBox8.Visible = true; 
+            
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            REC.Visible = false; 
+           
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            REC.Visible = false; 
+
         }
 
         private void button14_Click_3(object sender, EventArgs e)
@@ -338,12 +313,38 @@ namespace ProyectoBebe
 
         private void button15_Click_3(object sender, EventArgs e)
         {
-            REC.Visible = true; 
+            panelnota.Visible = false; 
+
+            //ACA NOTA
         }
 
         private void panelnota_Paint_1(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button20_Click_2(object sender, EventArgs e)
+        {
+            panelvacunas.Visible = false; 
+
+            //ACA VACUNAS
+        }
+
+        private void button17_Click_1(object sender, EventArgs e)
+        {
+            panelvacunas.Visible = false;
+        }
+
+        private void buttonguardarcit_Click(object sender, EventArgs e)
+        {
+            panelcitamedica.Visible = false; 
+
+            //ACA CITA MEDICA
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            panelcitamedica.Visible = false;
         }
     }
 }

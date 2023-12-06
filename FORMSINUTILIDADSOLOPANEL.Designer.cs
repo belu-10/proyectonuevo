@@ -315,14 +315,13 @@ namespace ProyectoBebe
             // 
             this.panelcitamedica.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelcitamedica.BackgroundImage")));
             this.panelcitamedica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelcitamedica.Controls.Add(this.panelvacunas);
             this.panelcitamedica.Controls.Add(this.button17);
             this.panelcitamedica.Controls.Add(this.button20);
             this.panelcitamedica.Controls.Add(this.label2);
             this.panelcitamedica.Controls.Add(this.buttonguardarcit);
             this.panelcitamedica.Controls.Add(this.textBox2);
             this.panelcitamedica.Controls.Add(this.textBox4);
-            this.panelcitamedica.Location = new System.Drawing.Point(-5, 3);
+            this.panelcitamedica.Location = new System.Drawing.Point(2, 61);
             this.panelcitamedica.Margin = new System.Windows.Forms.Padding(2);
             this.panelcitamedica.Name = "panelcitamedica";
             this.panelcitamedica.Size = new System.Drawing.Size(630, 194);
@@ -339,7 +338,7 @@ namespace ProyectoBebe
             this.panelvacunas.Controls.Add(this.label1);
             this.panelvacunas.Controls.Add(this.button12);
             this.panelvacunas.Controls.Add(this.textBox3);
-            this.panelvacunas.Location = new System.Drawing.Point(6, 2);
+            this.panelvacunas.Location = new System.Drawing.Point(76, 205);
             this.panelvacunas.Margin = new System.Windows.Forms.Padding(2);
             this.panelvacunas.Name = "panelvacunas";
             this.panelvacunas.Size = new System.Drawing.Size(631, 163);
@@ -665,6 +664,7 @@ namespace ProyectoBebe
             // 
             this.REC.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("REC.BackgroundImage")));
             this.REC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.REC.Controls.Add(this.panelvacunas);
             this.REC.Controls.Add(this.button26);
             this.REC.Controls.Add(this.button27);
             this.REC.Controls.Add(this.textBox8);

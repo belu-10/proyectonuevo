@@ -21,8 +21,14 @@ namespace ProyectoBebe
           pictureBox3.ImageLocation = (Program.foto[Program.indice-1]);
           pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            pictureBox4.ImageLocation = (Program.foto[Program.indice - 1]);
-            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+          pictureBox2.ImageLocation = (Program.foto[Program.indice - 1]);
+          pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+          pictureBox5.ImageLocation = (Program.foto[Program.indice - 1]);
+          pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+
+
+            label4.Text = Program.nombre[Program.i];  
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -99,7 +105,14 @@ namespace ProyectoBebe
 
         private void button21_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false; 
+            panel1.Visible = false;
+
+          //ACA SE DEBERIA ACTUALIZAR EL NOMBRE EN LA BASE DE DATOS Y QUE SE GUARDE AHÍ EN EL LABEL4
+            textBox1.Visible = false;
+            label4.Visible = true;
+        
+
+
         }
 
         private void button2_Click_2(object sender, EventArgs e)
@@ -115,6 +128,13 @@ namespace ProyectoBebe
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            textBox1.Visible = true;
+            textBox1.Text = Program.nombre[Program.i];
+            label4.Visible = false; 
         }
     }
 }
