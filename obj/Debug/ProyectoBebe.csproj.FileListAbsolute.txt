@@ -220,7 +220,6 @@ C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.Gener
 C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
 C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.exe
 C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.pdb
-C:\Users\48246071\source\repos\proyectonuevo\bin\Debug\proyecto11 - copia.accdb
 C:\Users\48246071\source\repos\proyectonuevo\bin\Debug\ProyectoBebe.exe.config
 C:\Users\48246071\source\repos\proyectonuevo\bin\Debug\ProyectoBebe.exe
 C:\Users\48246071\source\repos\proyectonuevo\bin\Debug\ProyectoBebe.pdb
@@ -257,3 +256,5 @@ C:\Users\48246071\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.Gener
 C:\Users\48246071\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
 C:\Users\48246071\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.exe
 C:\Users\48246071\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.pdb
+C:\Users\48246071\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formperfil_tds_los_hijos.resources
+C:\Users\48246071\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucperfilhijos.resources

@@ -25,6 +25,8 @@ namespace ProyectoBebe
         public static List<string> nota = new List<string>();
         public static int iman = 0;
 
+        public static int id; 
+
         [STAThread]
         static void Main()
         {
