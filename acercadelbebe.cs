@@ -141,5 +141,12 @@ namespace ProyectoBebe
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            formperfil perfil = new formperfil();
+            perfil.Show();
+            this.Hide();
+        }
     }
 }

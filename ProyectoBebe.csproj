@@ -140,6 +140,12 @@
     <Compile Include="formnuevorecuerdo.Designer.cs">
       <DependentUpon>formnuevorecuerdo.cs</DependentUpon>
     </Compile>
+    <Compile Include="formperfil tds los hijos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formperfil tds los hijos.Designer.cs">
+      <DependentUpon>formperfil tds los hijos.cs</DependentUpon>
+    </Compile>
     <Compile Include="formperfil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +196,12 @@
     <Compile Include="ucalbum.Designer.cs">
       <DependentUpon>ucalbum.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucperfilhijos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucperfilhijos.Designer.cs">
+      <DependentUpon>ucperfilhijos.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucuser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -213,11 +225,6 @@
     </Compile>
     <Compile Include="verdiario.Designer.cs">
       <DependentUpon>verdiario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="_proyecto11___copiaDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>_proyecto11___copiaDataSet.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="acercadelbebe.resx">
       <DependentUpon>acercadelbebe.cs</DependentUpon>
@@ -264,6 +271,9 @@
     <EmbeddedResource Include="formnuevorecuerdo.resx">
       <DependentUpon>formnuevorecuerdo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formperfil tds los hijos.resx">
+      <DependentUpon>formperfil tds los hijos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formperfil.resx">
       <DependentUpon>formperfil.cs</DependentUpon>
     </EmbeddedResource>
@@ -298,6 +308,9 @@
     <EmbeddedResource Include="ucalbum.resx">
       <DependentUpon>ucalbum.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucperfilhijos.resx">
+      <DependentUpon>ucperfilhijos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucuser.resx">
       <DependentUpon>ucuser.cs</DependentUpon>
     </EmbeddedResource>
@@ -319,17 +332,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="_proyecto11___copiaDataSet.xsc">
-      <DependentUpon>_proyecto11___copiaDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="_proyecto11___copiaDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>_proyecto11___copiaDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="_proyecto11___copiaDataSet.xss">
-      <DependentUpon>_proyecto11___copiaDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -342,11 +344,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ropa-bebe.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="proyecto11 - copia.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

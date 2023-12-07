@@ -38,7 +38,9 @@ namespace ProyectoBebe
 
         private void verdiario_Load(object sender, EventArgs e)
         {
-
+            formperfil perfil = new formperfil();
+            perfil.Show();
+            this.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

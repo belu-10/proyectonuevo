@@ -61,7 +61,9 @@ namespace ProyectoBebe
 
         private void button12_Click(object sender, EventArgs e)
         {
-
+            perfilhijo perfil = new perfilhijo();
+            perfil.Show();
+            this.Hide();
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -81,9 +83,7 @@ namespace ProyectoBebe
 
         private void button22_Click(object sender, EventArgs e)
         {
-            perfilhijo perfil = new perfilhijo();
-            perfil.Show();
-            this.Hide(); 
+            
         }
     }
 }

@@ -85,7 +85,7 @@ namespace ProyectoBebe
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            perfilhijo perfil = new perfilhijo();
+            formperfil perfil = new formperfil();
             perfil.Show();
             this.Hide();
         }
