@@ -60,9 +60,23 @@ namespace ProyectoBebe
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            formhijoiniciar hiniciar = new formhijoiniciar();
-            hiniciar.Show();
-            this.Hide(); 
+         
+            try {
+                cn.Open(); 
+
+            }
+            
+            catch (Exception exp){
+
+             MessageBox.Show(exp.ToString());
+            }
+
+            finally {
+
+                formhijoiniciar hiniciar = new formhijoiniciar();
+                hiniciar.Show();
+                this.Hide();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

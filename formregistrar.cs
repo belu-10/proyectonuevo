@@ -20,6 +20,9 @@ namespace ProyectoBebe
 
         OleDbConnection cn = new OleDbConnection();
         OleDbCommand cmd;
+        OleDbDataAdapter da;
+        DataSet ds = new DataSet();
+
         public formregistrar()
         {
             InitializeComponent();
@@ -65,8 +68,19 @@ namespace ProyectoBebe
                 sql = "INSERT INTO registro ([contraseña], nombre, mail) VALUES ('" + Contra + "', '" + usuario + "', '" + correo + "')";
                 OleDbCommand cmd = new OleDbCommand(sql, cn);
                 cmd.ExecuteNonQuery();
+
+                sql = "SELECT ([id usuario]) FROM registro WHERE nombre = '" + usuario + "' and [contraseña] = '" + Contra + "' ";
+                // COMO MIERDA LO GUARDO Y LO MANDO A LA VARIABLE DEL PROGRAM 
+
+
+
+              //  OleDbDataReader reader = cmd.ExecuteReader();
+               // reader.Read ("[id usuario]") = Program.id; 
+
+
             }
             catch (Exception ex)
+
             {
                 MessageBox.Show(Convert.ToString(ex));
             }
