@@ -55,7 +55,7 @@ namespace ProyectoBebe
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+// NADA DE ESRO FUNCIONA ASI QUE IGNORAR!!!!!!!!!!!!!!!!!!!!!!!!
 
             /*   DataSet ds = new DataSet();
               int cantidad = ds.Tables[""].Rows.Count; */
@@ -83,6 +83,7 @@ namespace ProyectoBebe
 
         private void formhijoiniciar_Load(object sender, EventArgs e)
         {
+
 
         }
 

@@ -35,5 +35,12 @@ namespace ProyectoBebe
             perfil.Show();
             this.Hide();
         }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            formperfil perfil = new formperfil();
+            perfil.Show();
+            this.Hide();
+        }
     }
 }

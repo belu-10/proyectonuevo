@@ -88,7 +88,9 @@ namespace ProyectoBebe
 
         private void button2_Click_2(object sender, EventArgs e)
         {
-            FORMSINUTILIDADSOLOPANEL panel = new FORMSINUTILIDADSOLOPANEL(); 
+            formhijoiniciar hiniciar = new formhijoiniciar();
+            hiniciar.Show();
+            this.Hide();
         }
     }
 }

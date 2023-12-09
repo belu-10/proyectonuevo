@@ -83,7 +83,9 @@ namespace ProyectoBebe
 
         private void button22_Click(object sender, EventArgs e)
         {
-            
+            formperfil_tds_los_hijos hijos = new formperfil_tds_los_hijos();
+            hijos.Show();
+            this.Hide(); 
         }
     }
 }

@@ -42,9 +42,9 @@ namespace ProyectoBebe
         {
 
            string fecha = dateTimePicker1.Text;
-           
+            Program.nacimiento.Add(fecha);
 
-            
+
             formelegirbebe elegir = new formelegirbebe();
             elegir.Show();
             this.Hide(); 

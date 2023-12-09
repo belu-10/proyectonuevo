@@ -17,7 +17,7 @@ namespace ProyectoBebe
             InitializeComponent();
             //  label1.Text = (Program.nombre[Program.indice]);
 
-       //ESTOOOOO
+       //ESTO ES TEMA FOTO
           pictureBox3.ImageLocation = (Program.foto[Program.indice-1]);
           pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
 
@@ -28,7 +28,11 @@ namespace ProyectoBebe
           pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
 
 
-            label4.Text = Program.nombre[Program.i];  
+        // ESTO ES PARA ACTUALIZAR ALGUNOS DATOS
+          label4.Text = Program.nombre[Program.indice-1]; 
+          label5.Text = Program.nacimiento[Program.indice-1];
+
+        //
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -107,11 +111,13 @@ namespace ProyectoBebe
         {
             panel1.Visible = false;
 
-          //ACA SE DEBERIA ACTUALIZAR EL NOMBRE EN LA BASE DE DATOS Y QUE SE GUARDE AHÍ EN EL LABEL4
+          //ACA SE DEBERIA ACTUALIZAR EL NOMBRE EN LA BASE DE DATOS Y QUE SE GUARDE AHÍ EN EL LABEL4. LO MISMO CON LA FECHA DE NACIMIENTO 
+          //  Y QUE SE GUARDE EN EL LABEL5
             textBox1.Visible = false;
             label4.Visible = true;
-        
 
+            textBox5.Visible = false;
+            label5.Visible = true; 
 
         }
 
@@ -133,13 +139,15 @@ namespace ProyectoBebe
         private void label4_Click(object sender, EventArgs e)
         {
             textBox1.Visible = true;
-            textBox1.Text = Program.nombre[Program.i];
+            textBox1.Text = Program.nombre[Program.indice];
             label4.Visible = false; 
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-
+            formperfil perfil = new formperfil();
+            perfil.Show();
+            this.Hide();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -147,6 +155,23 @@ namespace ProyectoBebe
             formperfil perfil = new formperfil();
             perfil.Show();
             this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            textBox1.Visible = true;
+            textBox1.Text = Program.nacimiento[Program.indice];
+            label4.Visible = false;
         }
     }
 }

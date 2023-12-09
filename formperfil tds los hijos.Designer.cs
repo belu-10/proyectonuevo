@@ -32,6 +32,7 @@ namespace ProyectoBebe
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formperfil_tds_los_hijos));
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,9 +44,10 @@ namespace ProyectoBebe
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(12, 12);
+            this.button3.Location = new System.Drawing.Point(16, 15);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(21, 11);
+            this.button3.Size = new System.Drawing.Size(28, 14);
             this.button3.TabIndex = 32;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -53,23 +55,34 @@ namespace ProyectoBebe
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Location = new System.Drawing.Point(501, 1);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(668, 11);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(37, 45);
+            this.pictureBox2.Size = new System.Drawing.Size(49, 46);
             this.pictureBox2.TabIndex = 50;
             this.pictureBox2.TabStop = false;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 59);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(753, 322);
+            this.flowLayoutPanel1.TabIndex = 51;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
             // formperfil_tds_los_hijos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(586, 327);
+            this.ClientSize = new System.Drawing.Size(781, 402);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button3);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "formperfil_tds_los_hijos";
             this.Text = "formperfil_tds_los_hijos";
             this.Load += new System.EventHandler(this.formperfil_tds_los_hijos_Load);
@@ -82,5 +95,6 @@ namespace ProyectoBebe
 
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

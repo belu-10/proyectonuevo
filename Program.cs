@@ -14,6 +14,7 @@ namespace ProyectoBebe
 
         public static List<string> nombre = new List<string>();  
         public static List<string> foto = new List<string>();
+        public static List<string> nacimiento = new List<string>();
         public static int indice = 0; 
 
         public static List<string> titulo = new List<string>();

@@ -15,6 +15,18 @@ namespace ProyectoBebe
         public ucperfilhijos()
         {
             InitializeComponent();
+
+            textBox1.Text = (Program.nombre[Program.indice]);
+
+            textBox2.Text = (Program.nacimiento[Program.indice]);
+
+            pictureBox1.ImageLocation = (Program.foto[Program.indice]);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
