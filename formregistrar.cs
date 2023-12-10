@@ -22,7 +22,7 @@ namespace ProyectoBebe
         OleDbCommand cmd;
         OleDbDataAdapter da;
         DataSet ds = new DataSet();
-
+        OleDbDataReader reader;
         public formregistrar()
         {
             InitializeComponent();
@@ -71,10 +71,7 @@ namespace ProyectoBebe
 
                 sql = "SELECT ([id usuario]) FROM registro WHERE nombre = '" + usuario + "' and [contraseña] = '" + Contra + "' ";
                 // COMO MIERDA LO GUARDO Y LO MANDO A LA VARIABLE DEL PROGRAM 
-
-
-
-              //  OleDbDataReader reader = cmd.ExecuteReader();
+             reader = cmd.ExecuteReader();
                // reader.Read ("[id usuario]") = Program.id; 
 
 
