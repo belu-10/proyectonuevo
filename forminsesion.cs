@@ -20,6 +20,8 @@ namespace ProyectoBebe
         OleDbCommand cmd;
         OleDbDataAdapter da;
         DataSet ds = new DataSet();
+        OleDbDataReader reader;
+        bool existe; 
      
         public forminsesion()
         {
@@ -60,10 +62,33 @@ namespace ProyectoBebe
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-         
-            try {
-                cn.Open(); 
 
+
+            try
+            {
+                cn.Open();
+                sql = "SELECT nombre,[contraseña]  FROM registro WHERE nombre = '" + textBox1.Text + "' and [contraseña] = '" + textBox2.Text + "' ";
+                cmd = new OleDbCommand(sql, cn);
+                reader = cmd.ExecuteReader();
+                existe = reader.HasRows;
+                if (existe)
+                {
+                    MessageBox.Show("bienvenid@ " + textBox1.Text + "!");
+                    formhijoiniciar hiniciar = new formhijoiniciar();
+                    hiniciar.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("por favor revise su contraseña o usuario, no existe registro congrruente");
+                    return;
+                }
+            
+
+
+                
+            
+             
             }
             
             catch (Exception exp){
@@ -71,12 +96,13 @@ namespace ProyectoBebe
              MessageBox.Show(exp.ToString());
             }
 
-            finally {
-
-                formhijoiniciar hiniciar = new formhijoiniciar();
-                hiniciar.Show();
-                this.Hide();
+            finally
+            {
+                cn.Close(); 
             }
+
+            
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
