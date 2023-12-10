@@ -18,23 +18,24 @@ namespace ProyectoBebe
         public cuannaciobb()
         { 
         InitializeComponent();
-
         }
-            
-
-
-        
-
-            /*string hexColor = "#FF5733"; // Tu color hexadecimal
-            Color customColor = ColorTranslator.FromHtml(hexColor); // Convierte el valor hexadecimal en un objeto Color
-
-            dateTimePicker1.CalendarForeColor = customColor; // Cambia el color del texto del calendario
-            */
-        
-       
+           
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
+            DateTime fechaseleccionada = dateTimePicker1.Value;
+
+            TimeSpan diferencia = DateTime.Now - fechaseleccionada;
+
+            int años = (int)(diferencia.Days / 365.25); //promedio de días en un año
+            Convert.ToString(años); //esta variable es la que se tiene que mostrar en el label1 (form acerca del bb)
+
+            int meses = (int)((diferencia.Days % 365.25) / 30.44); // 30.44 es el promedio de dias en un mes
+            Convert.ToString(meses);  //esta variable es la que se tiene que mostrar en el label2 (form acerca del bb)
+
+            int dias = diferencia.Days % 30;
+            Convert.ToString(dias); //esta variable es la que se tiene que mostrar en el label3 (form acerca del bb)
+
 
         }
 

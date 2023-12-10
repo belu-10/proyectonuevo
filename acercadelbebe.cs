@@ -32,7 +32,9 @@ namespace ProyectoBebe
           label4.Text = Program.nombre[Program.indice-1]; 
           label5.Text = Program.nacimiento[Program.indice-1];
 
-        //
+
+
+        // desde aca viene e
         }
 
         private void button1_Click(object sender, EventArgs e)
