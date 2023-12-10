@@ -52,6 +52,7 @@ namespace ProyectoBebe
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(171, 21);
             this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // pictureBox1
             // 
@@ -72,7 +73,7 @@ namespace ProyectoBebe
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucperfilhijos";
             this.Size = new System.Drawing.Size(344, 92);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

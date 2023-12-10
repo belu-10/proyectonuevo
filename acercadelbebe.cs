@@ -118,8 +118,7 @@ namespace ProyectoBebe
             textBox1.Visible = false;
             label4.Visible = true;
 
-            textBox5.Visible = false;
-            label5.Visible = true; 
+            
 
         }
 
@@ -141,7 +140,7 @@ namespace ProyectoBebe
         private void label4_Click(object sender, EventArgs e)
         {
             textBox1.Visible = true;
-            textBox1.Text = Program.nombre[Program.indice];
+            textBox1.Text = Program.nombre[Program.indice-1];
             label4.Visible = false; 
         }
 
@@ -171,9 +170,7 @@ namespace ProyectoBebe
 
         private void label5_Click(object sender, EventArgs e)
         {
-            textBox1.Visible = true;
-            textBox1.Text = Program.nacimiento[Program.indice];
-            label4.Visible = false;
+
         }
     }
 }

@@ -88,7 +88,7 @@ namespace ProyectoBebe
 
         private void button2_Click_2(object sender, EventArgs e)
         {
-            formhijoiniciar hiniciar = new formhijoiniciar();
+            calendario hiniciar = new calendario();
             hiniciar.Show();
             this.Hide();
         }
