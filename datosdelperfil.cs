@@ -37,5 +37,26 @@ namespace ProyectoBebe
             perfil.Show();
             this.Hide(); 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            formhijoiniciar iniciar = new formhijoiniciar();
+            iniciar.Show();
+            this.Hide(); 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            calendario cal = new calendario();
+            cal.Show();
+            this.Hide(); 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            formrecuerdo rec = new formrecuerdo();
+            rec.Show();
+            this.Hide(); 
+        }
     }
 }

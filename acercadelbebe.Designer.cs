@@ -154,7 +154,7 @@ namespace ProyectoBebe
             this.pictureBox1.Location = new System.Drawing.Point(-1, 2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(783, 396);
+            this.pictureBox1.Size = new System.Drawing.Size(782, 396);
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -207,7 +207,7 @@ namespace ProyectoBebe
             this.panel1.Location = new System.Drawing.Point(-1, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(783, 396);
+            this.panel1.Size = new System.Drawing.Size(641, 396);
             this.panel1.TabIndex = 28;
             this.panel1.Visible = false;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);

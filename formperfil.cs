@@ -68,7 +68,8 @@ namespace ProyectoBebe
 
         private void button11_Click(object sender, EventArgs e)
         {
-            panel1.Visible = true; 
+            panel1.Visible = true;
+            panel1.BringToFront(); 
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -86,6 +87,54 @@ namespace ProyectoBebe
             formperfil_tds_los_hijos hijos = new formperfil_tds_los_hijos();
             hijos.Show();
             this.Hide(); 
+        }
+
+        private void formperfil_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+           //ACA CERRAR SESÍÓN
+            forminsesion inicio = new forminsesion();
+            inicio.Show();
+            this.Hide(); 
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            //ACA ELIMINAR CUENTA
+            forminsesion inicio = new forminsesion();
+            inicio.Show();
+            this.Hide();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false; 
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            groupBox1.Visible = true; 
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            groupBox1.Visible = true; 
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = true;
+            panel2.BringToFront(); 
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            panel3.Visible = true;
+            panel3.BringToFront(); 
         }
     }
 }

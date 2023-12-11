@@ -87,6 +87,7 @@ namespace ProyectoBebe
                 MessageBox.Show("Registro correctamente");
                 nombrebebe nombre = new nombrebebe();
                 nombre.Show();
+                this.Hide(); 
             }
            
         }

@@ -44,9 +44,9 @@ namespace ProyectoBebe
             int dias = diferencia.Days % 30;
             Convert.ToString(dias); //esta variable es la que se tiene que mostrar en el label3 (form acerca del bb)
 
-            diasInsercion = dias;
-            mesesInsercion = meses;
-            añosInsercion = años; 
+          //  diasInsercion = dias;
+          //  mesesInsercion = meses;
+          //  añosInsercion = años; 
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace ProyectoBebe
             Program.nacimiento.Add(fecha);
 
             try {
-                sql = "UPDATE bebe SET nacimiento = '"+fecha+"' dia = '"+dias +"' mes = '"+meses+"' [año] ='"+ años+"' WHERE"; 
+              //  sql = "UPDATE bebe SET nacimiento = '"+fecha+"' dia = '"+dias +"' mes = '"+meses+"' [año] ='"+ años+"' WHERE"; 
             }
             finally {
                 formelegirbebe elegir = new formelegirbebe();
