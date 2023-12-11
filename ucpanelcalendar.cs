@@ -12,9 +12,11 @@ namespace ProyectoBebe
 {
     public partial class ucpanelcalendar : UserControl
     {
-        public ucpanelcalendar()
+        private FlowLayoutPanel contenedor;
+        public ucpanelcalendar(FlowLayoutPanel contenedor)
         {
             InitializeComponent();
+            this.contenedor = contenedor;
 
             label1.Text = (Program.fecha[Program.iglu]);
             label2.Text = (Program.especialidad[Program.iglu]);
@@ -33,7 +35,8 @@ namespace ProyectoBebe
 
         private void button27_Click(object sender, EventArgs e)
         {
-          
+            contenedor.Controls.Remove(this);
+            this.Dispose(); // Limpia recursos (opcional dependiendo del caso)
         }
     }
 }
