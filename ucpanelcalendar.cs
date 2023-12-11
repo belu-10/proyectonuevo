@@ -15,9 +15,10 @@ namespace ProyectoBebe
         public ucpanelcalendar()
         {
             InitializeComponent();
+
             label1.Text = (Program.fecha[Program.iglu]);
             label2.Text = (Program.especialidad[Program.iglu]);
-            label3.Text = (Program.extra[Program.iglu]);
+            label3.Text = (Program.extra[Program.iglu]); 
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -28,6 +29,11 @@ namespace ProyectoBebe
         private void ucpanelcalendar_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }

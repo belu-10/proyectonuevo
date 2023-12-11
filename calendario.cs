@@ -18,11 +18,13 @@ namespace ProyectoBebe
         {
             InitializeComponent();
 
-            for (Program.iglu = 0; Program.iglu < Program.especialidad.Count; Program.iglu++)
-            {
-                ucpanelcalendar user = new ucpanelcalendar();
-                user.Parent = flowLayoutPanel1;
-            }
+          
+        }
+
+        private void user_Click(object sender, EventArgs e)
+        {
+            
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -368,6 +370,17 @@ namespace ProyectoBebe
             panelnota.Visible = false;
             panelmedicamento.Visible = false;
             panelcitamedica.Visible = false;
+
+            for (Program.iglu = 0; Program.iglu < Program.fechapanel.Count; Program.iglu++)
+            {
+              // f (Program.iglu = 0  Program.fechapanel.Count)
+                {
+                    ucpanelcalendar user = new ucpanelcalendar();
+                    user.Parent = flowLayoutPanel1;
+                    user.Click += user_Click;
+                }
+                
+            }
         }
 
         private void button27_Click_3(object sender, EventArgs e)
@@ -380,6 +393,7 @@ namespace ProyectoBebe
         {
 
         }
+
     }
 }
 

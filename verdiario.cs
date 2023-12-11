@@ -33,7 +33,8 @@ namespace ProyectoBebe
         private void button1_Click(object sender, EventArgs e)
         {
             formrecuerdo recuerdo = new formrecuerdo();
-            recuerdo.Show(); 
+            recuerdo.Show();
+            this.Hide(); 
         }
 
         private void verdiario_Load(object sender, EventArgs e)

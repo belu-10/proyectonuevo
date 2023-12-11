@@ -33,5 +33,10 @@ namespace ProyectoBebe
         {
 
         }
+
+        private void ucperfilhijos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

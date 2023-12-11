@@ -296,4 +296,3 @@ C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.csproj.C
 C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.exe
 C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.pdb
 C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.ucpanelcalendar.resources
-C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache

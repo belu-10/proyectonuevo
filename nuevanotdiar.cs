@@ -44,5 +44,12 @@ namespace ProyectoBebe
             perfil.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            formdiario diar = new formdiario();
+            diar.Show();
+            this.Hide(); 
+        }
     }
 }

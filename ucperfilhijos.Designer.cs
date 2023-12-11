@@ -76,6 +76,7 @@ namespace ProyectoBebe
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucperfilhijos";
             this.Size = new System.Drawing.Size(344, 92);
+            this.Load += new System.EventHandler(this.ucperfilhijos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

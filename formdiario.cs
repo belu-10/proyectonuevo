@@ -31,7 +31,11 @@ namespace ProyectoBebe
 
         private void user_Click(object sender, EventArgs e)
         {
-           
+            nuevanotdiar nuevanota = new nuevanotdiar();
+            nuevanota.Show();
+            this.Hide(); 
+
+            // ACA SE DEBERIA MOSTRAR LA FECHA ELEGIDA Y LA NOTA ESCRITA
 
         }
 

@@ -89,6 +89,13 @@ namespace ProyectoBebe
             perfil.Show();
             this.Hide();
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            formrecuerdo rec = new formrecuerdo();
+            rec.Show();
+            this.Hide(); 
+        }
     }
 
        

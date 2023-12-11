@@ -19,6 +19,11 @@ namespace ProyectoBebe
 
             pictureBox2.ImageLocation = (Program.foto[Program.indice-1]);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            // EN EL PICTURE BOX LA FOTO QUE YA GUARDO ANTES
+            // EN EL LABEL 2 VA LA FECHA
+            // EN EL LABEL 1 VA EL TITULO
+
         }
 
         private void formmomento_Load(object sender, EventArgs e)
