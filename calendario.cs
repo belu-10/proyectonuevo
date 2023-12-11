@@ -179,6 +179,7 @@ namespace ProyectoBebe
         private void button15_Click_3(object sender, EventArgs e)
         {
             panelrecordatorio.Visible = true;
+            panelrecordatorio.BringToFront(); 
 
             string dia = dateTimePicker1.Text;
             Program.fechapanel.Add(dia);
@@ -199,6 +200,7 @@ namespace ProyectoBebe
         private void button20_Click_2(object sender, EventArgs e)
         {
             panelrecordatorio.Visible = true;
+            panelrecordatorio.BringToFront();
 
             string dia = dateTimePicker1.Text;
             Program.fechapanel.Add(dia);
@@ -219,6 +221,7 @@ namespace ProyectoBebe
         private void buttonguardarcit_Click(object sender, EventArgs e)
         {
             panelrecordatorio.Visible = true;
+            panelrecordatorio.BringToFront();
 
             string dia = dateTimePicker1.Text;
             Program.fechapanel.Add(dia);
@@ -271,6 +274,7 @@ namespace ProyectoBebe
         private void button89_Click(object sender, EventArgs e)
         {
             panelrecordatorio.Visible = true;
+            panelrecordatorio.BringToFront();
 
             string dia = dateTimePicker1.Text;
             Program.fechapanel.Add(dia);
