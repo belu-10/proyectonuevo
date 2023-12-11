@@ -7,15 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb; 
 
 namespace ProyectoBebe
 {
     public partial class nombrebebe : Form
     {
+        string nombre; 
+
+        string sql;
+        OleDbConnection cn = new OleDbConnection();
+        OleDbCommand cmd;
+
         public nombrebebe()
         {
             InitializeComponent();
-            string nombre = textBox1.Text;
+             nombre = textBox1.Text;
+
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -25,17 +33,33 @@ namespace ProyectoBebe
 
         private void Nombrebebe_Load(object sender, EventArgs e)
         {
+        
 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            cuannaciobb cnbb = new cuannaciobb();
-            cnbb.Show();
-            this.Hide(); 
+            cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";
 
-            string nombre = textBox1.Text;
-            Program.nombre.Add(nombre); 
+            nombre = textBox1.Text;
+            Program.nombre.Add(nombre);
+            try
+            {
+                cn.Open();
+                sql = "INSERT INTO bebe (nombre, idUsuario) VALUES ('" + nombre + "', '"+Program.id+"') ";
+                OleDbCommand cmd = new OleDbCommand(sql, cn);
+                cmd.ExecuteNonQuery();
+                cn.Close(); 
+            }
+            finally
+            {
+                cuannaciobb cnbb = new cuannaciobb();
+                cnbb.Show();
+                this.Hide();
+            }
+           
+
+            
 
         }
 

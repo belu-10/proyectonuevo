@@ -14,6 +14,14 @@ namespace ProyectoBebe
     public partial class cuannaciobb : Form
     {
         public static string fecha;
+        string sql;
+        OleDbConnection cn = new OleDbConnection();
+        OleDbCommand cmd;
+        OleDbDataAdapter da;
+        DataSet ds = new DataSet();
+        string diasInsercion;
+        string mesesInsercion;
+        string añosInsercion; 
 
         public cuannaciobb()
         { 
@@ -36,19 +44,29 @@ namespace ProyectoBebe
             int dias = diferencia.Days % 30;
             Convert.ToString(dias); //esta variable es la que se tiene que mostrar en el label3 (form acerca del bb)
 
-
+            diasInsercion = dias;
+            mesesInsercion = meses;
+            añosInsercion = años; 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
-           string fecha = dateTimePicker1.Text;
+            string fecha = dateTimePicker1.Text;
             Program.nacimiento.Add(fecha);
 
+            try {
+                sql = "UPDATE bebe SET nacimiento = '"+fecha+"' dia = '"+dias +"' mes = '"+meses+"' [año] ='"+ años+"' WHERE"; 
+            }
+            finally {
+                formelegirbebe elegir = new formelegirbebe();
+                elegir.Show();
+                this.Hide();
+            }
+        
+       
 
-            formelegirbebe elegir = new formelegirbebe();
-            elegir.Show();
-            this.Hide(); 
+
+            
         }
 
         private void cuannaciobb_Load(object sender, EventArgs e)

@@ -16,8 +16,8 @@ namespace ProyectoBebe
         public string Contra;
         public string usuario; 
         public string correo; 
-        string sql;
 
+        string sql;
         OleDbConnection cn = new OleDbConnection();
         OleDbCommand cmd;
         OleDbDataAdapter da;
@@ -71,7 +71,7 @@ namespace ProyectoBebe
 
                 sql = "SELECT ([id usuario]) FROM registro WHERE nombre = '" + usuario + "' and [contraseña] = '" + Contra + "' ";
                 // COMO MIERDA LO GUARDO Y LO MANDO A LA VARIABLE DEL PROGRAM 
-             reader = cmd.ExecuteReader();
+               // reader.Read["id "] = Program.id; 
                // reader.Read ("[id usuario]") = Program.id; 
 
 
