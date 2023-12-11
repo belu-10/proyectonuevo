@@ -196,6 +196,12 @@
     <Compile Include="ucalbum.Designer.cs">
       <DependentUpon>ucalbum.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucpanelcalendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucpanelcalendar.Designer.cs">
+      <DependentUpon>ucpanelcalendar.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucperfilhijos.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -307,6 +313,9 @@
     </Compile>
     <EmbeddedResource Include="ucalbum.resx">
       <DependentUpon>ucalbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucpanelcalendar.resx">
+      <DependentUpon>ucpanelcalendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucperfilhijos.resx">
       <DependentUpon>ucperfilhijos.cs</DependentUpon>

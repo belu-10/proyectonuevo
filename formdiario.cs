@@ -31,8 +31,7 @@ namespace ProyectoBebe
 
         private void user_Click(object sender, EventArgs e)
         {
-            acercadelbebe acerca = new acercadelbebe();
-            acerca.Show();
+           
 
         }
 

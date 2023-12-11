@@ -26,6 +26,11 @@ namespace ProyectoBebe
         public static List<string> nota = new List<string>();
         public static int iman = 0;
 
+        public static List<string> fechapanel = new List<string>();
+        public static List<string> especialidad = new List<string>();
+        public static List<string> extra = new List<string>();
+        public static int iglu = 0; 
+
         public static int id; 
 
         [STAThread]

@@ -38,9 +38,6 @@ namespace ProyectoBebe
             this.button5 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button9 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -54,18 +51,25 @@ namespace ProyectoBebe
             this.label1 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panelnota = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.label45 = new System.Windows.Forms.Label();
+            this.button15 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelvacunas = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button20 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.label45 = new System.Windows.Forms.Label();
-            this.button15 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelcitamedica = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonguardarcit = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panelrecordatorio = new System.Windows.Forms.Panel();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
@@ -73,15 +77,8 @@ namespace ProyectoBebe
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.button29 = new System.Windows.Forms.Button();
             this.button30 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.buttonguardarcit = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panelmedicamento.SuspendLayout();
             this.panelnota.SuspendLayout();
@@ -93,10 +90,10 @@ namespace ProyectoBebe
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 10);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(849, 392);
+            this.pictureBox1.Size = new System.Drawing.Size(833, 382);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -109,7 +106,7 @@ namespace ProyectoBebe
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Location = new System.Drawing.Point(52, 292);
+            this.groupBox1.Location = new System.Drawing.Point(61, 292);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -209,43 +206,13 @@ namespace ProyectoBebe
             this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(775, 14);
+            this.button9.Location = new System.Drawing.Point(771, 10);
             this.button9.Margin = new System.Windows.Forms.Padding(4);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(53, 41);
             this.button9.TabIndex = 30;
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(587, 230);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(203, 101);
-            this.panel2.TabIndex = 33;
-            this.panel2.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 17);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Fecha:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 17);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Especialidad:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button23
             // 
@@ -340,10 +307,10 @@ namespace ProyectoBebe
             this.panelmedicamento.Controls.Add(this.button18);
             this.panelmedicamento.Controls.Add(this.label1);
             this.panelmedicamento.Controls.Add(this.textBox5);
-            this.panelmedicamento.Location = new System.Drawing.Point(12, 82);
+            this.panelmedicamento.Location = new System.Drawing.Point(3, -2);
             this.panelmedicamento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelmedicamento.Name = "panelmedicamento";
-            this.panelmedicamento.Size = new System.Drawing.Size(837, 130);
+            this.panelmedicamento.Size = new System.Drawing.Size(835, 400);
             this.panelmedicamento.TabIndex = 55;
             this.panelmedicamento.Visible = false;
             // 
@@ -425,19 +392,84 @@ namespace ProyectoBebe
             // 
             this.panelnota.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelnota.BackgroundImage")));
             this.panelnota.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelnota.Controls.Add(this.panelrecordatorio);
             this.panelnota.Controls.Add(this.button13);
             this.panelnota.Controls.Add(this.button14);
             this.panelnota.Controls.Add(this.label45);
             this.panelnota.Controls.Add(this.button15);
             this.panelnota.Controls.Add(this.textBox1);
-            this.panelnota.Location = new System.Drawing.Point(3, 0);
+            this.panelnota.Location = new System.Drawing.Point(6, -2);
             this.panelnota.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelnota.Name = "panelnota";
-            this.panelnota.Size = new System.Drawing.Size(831, 398);
+            this.panelnota.Size = new System.Drawing.Size(832, 398);
             this.panelnota.TabIndex = 56;
             this.panelnota.Visible = false;
             this.panelnota.Paint += new System.Windows.Forms.PaintEventHandler(this.panelnota_Paint_1);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.Transparent;
+            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Location = new System.Drawing.Point(779, 16);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(53, 32);
+            this.button13.TabIndex = 43;
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Transparent;
+            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Location = new System.Drawing.Point(13, 14);
+            this.button14.Margin = new System.Windows.Forms.Padding(4);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(29, 21);
+            this.button14.TabIndex = 42;
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click_3);
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(210, 177);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(20, 17);
+            this.label45.TabIndex = 41;
+            this.label45.Text = "...";
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Transparent;
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Location = new System.Drawing.Point(104, 325);
+            this.button15.Margin = new System.Windows.Forms.Padding(4);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(607, 65);
+            this.button15.TabIndex = 39;
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click_3);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(77, 97);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(361, 36);
+            this.textBox1.TabIndex = 37;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panelvacunas
             // 
@@ -448,12 +480,13 @@ namespace ProyectoBebe
             this.panelvacunas.Controls.Add(this.label3);
             this.panelvacunas.Controls.Add(this.button20);
             this.panelvacunas.Controls.Add(this.textBox3);
-            this.panelvacunas.Location = new System.Drawing.Point(3, 84);
+            this.panelvacunas.Location = new System.Drawing.Point(-1, -2);
             this.panelvacunas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelvacunas.Name = "panelvacunas";
-            this.panelvacunas.Size = new System.Drawing.Size(841, 318);
+            this.panelvacunas.Size = new System.Drawing.Size(830, 400);
             this.panelvacunas.TabIndex = 50;
             this.panelvacunas.Visible = false;
+            this.panelvacunas.Paint += new System.Windows.Forms.PaintEventHandler(this.panelvacunas_Paint);
             // 
             // button12
             // 
@@ -520,71 +553,6 @@ namespace ProyectoBebe
             this.textBox3.Size = new System.Drawing.Size(361, 36);
             this.textBox3.TabIndex = 37;
             // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.Transparent;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(779, 16);
-            this.button13.Margin = new System.Windows.Forms.Padding(4);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(53, 32);
-            this.button13.TabIndex = 43;
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.Transparent;
-            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(13, 14);
-            this.button14.Margin = new System.Windows.Forms.Padding(4);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(29, 21);
-            this.button14.TabIndex = 42;
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.button14_Click_3);
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(281, 182);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(20, 17);
-            this.label45.TabIndex = 41;
-            this.label45.Text = "...";
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.Transparent;
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(104, 325);
-            this.button15.Margin = new System.Windows.Forms.Padding(4);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(607, 65);
-            this.button15.TabIndex = 39;
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click_3);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(77, 97);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(361, 36);
-            this.textBox1.TabIndex = 37;
-            // 
             // panelcitamedica
             // 
             this.panelcitamedica.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelcitamedica.BackgroundImage")));
@@ -595,121 +563,13 @@ namespace ProyectoBebe
             this.panelcitamedica.Controls.Add(this.buttonguardarcit);
             this.panelcitamedica.Controls.Add(this.textBox2);
             this.panelcitamedica.Controls.Add(this.textBox4);
-            this.panelcitamedica.Location = new System.Drawing.Point(0, 159);
+            this.panelcitamedica.Location = new System.Drawing.Point(3, 0);
             this.panelcitamedica.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelcitamedica.Name = "panelcitamedica";
-            this.panelcitamedica.Size = new System.Drawing.Size(840, 241);
+            this.panelcitamedica.Size = new System.Drawing.Size(835, 392);
             this.panelcitamedica.TabIndex = 57;
             this.panelcitamedica.Visible = false;
-            // 
-            // panelrecordatorio
-            // 
-            this.panelrecordatorio.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelrecordatorio.BackgroundImage")));
-            this.panelrecordatorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelrecordatorio.Controls.Add(this.button27);
-            this.panelrecordatorio.Controls.Add(this.button28);
-            this.panelrecordatorio.Controls.Add(this.textBox9);
-            this.panelrecordatorio.Controls.Add(this.comboBox2);
-            this.panelrecordatorio.Controls.Add(this.button29);
-            this.panelrecordatorio.Controls.Add(this.button30);
-            this.panelrecordatorio.Location = new System.Drawing.Point(799, 367);
-            this.panelrecordatorio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelrecordatorio.Name = "panelrecordatorio";
-            this.panelrecordatorio.Size = new System.Drawing.Size(509, 343);
-            this.panelrecordatorio.TabIndex = 58;
-            this.panelrecordatorio.Visible = false;
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.Transparent;
-            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(6, 7);
-            this.button27.Margin = new System.Windows.Forms.Padding(4);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(99, 18);
-            this.button27.TabIndex = 44;
-            this.button27.UseVisualStyleBackColor = false;
-            this.button27.Click += new System.EventHandler(this.button27_Click_1);
-            // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.Color.Transparent;
-            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(29, 279);
-            this.button28.Margin = new System.Windows.Forms.Padding(4);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(453, 39);
-            this.button28.TabIndex = 43;
-            this.button28.UseVisualStyleBackColor = false;
-            this.button28.Click += new System.EventHandler(this.button28_Click_1);
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(293, 209);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(167, 36);
-            this.textBox9.TabIndex = 42;
-            this.textBox9.Visible = false;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "15 minutos antes",
-            "30 minutos antes",
-            "1 hora antes",
-            "2 horas antes",
-            "6 horas antes",
-            "12 horas antes",
-            "24 horas antes"});
-            this.comboBox2.Location = new System.Drawing.Point(293, 171);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(167, 24);
-            this.comboBox2.TabIndex = 42;
-            this.comboBox2.Visible = false;
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.Transparent;
-            this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button29.FlatAppearance.BorderSize = 0;
-            this.button29.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button29.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Location = new System.Drawing.Point(355, 89);
-            this.button29.Margin = new System.Windows.Forms.Padding(4);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(128, 39);
-            this.button29.TabIndex = 41;
-            this.button29.UseVisualStyleBackColor = false;
-            this.button29.Click += new System.EventHandler(this.button29_Click);
-            // 
-            // button30
-            // 
-            this.button30.BackColor = System.Drawing.Color.Transparent;
-            this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button30.FlatAppearance.BorderSize = 0;
-            this.button30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Location = new System.Drawing.Point(25, 89);
-            this.button30.Margin = new System.Windows.Forms.Padding(4);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(128, 39);
-            this.button30.TabIndex = 40;
-            this.button30.UseVisualStyleBackColor = false;
-            this.button30.Click += new System.EventHandler(this.button30_Click);
+            this.panelcitamedica.Paint += new System.Windows.Forms.PaintEventHandler(this.panelcitamedica_Paint);
             // 
             // button2
             // 
@@ -785,6 +645,123 @@ namespace ProyectoBebe
             this.textBox4.Size = new System.Drawing.Size(361, 36);
             this.textBox4.TabIndex = 37;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(585, 71);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 298);
+            this.flowLayoutPanel1.TabIndex = 45;
+            // 
+            // panelrecordatorio
+            // 
+            this.panelrecordatorio.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelrecordatorio.BackgroundImage")));
+            this.panelrecordatorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelrecordatorio.Controls.Add(this.button27);
+            this.panelrecordatorio.Controls.Add(this.button28);
+            this.panelrecordatorio.Controls.Add(this.textBox9);
+            this.panelrecordatorio.Controls.Add(this.comboBox2);
+            this.panelrecordatorio.Controls.Add(this.button29);
+            this.panelrecordatorio.Controls.Add(this.button30);
+            this.panelrecordatorio.Location = new System.Drawing.Point(195, 25);
+            this.panelrecordatorio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelrecordatorio.Name = "panelrecordatorio";
+            this.panelrecordatorio.Size = new System.Drawing.Size(445, 347);
+            this.panelrecordatorio.TabIndex = 61;
+            this.panelrecordatorio.Visible = false;
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.Transparent;
+            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button27.FlatAppearance.BorderSize = 0;
+            this.button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.Location = new System.Drawing.Point(6, 7);
+            this.button27.Margin = new System.Windows.Forms.Padding(4);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(99, 18);
+            this.button27.TabIndex = 44;
+            this.button27.UseVisualStyleBackColor = false;
+            this.button27.Click += new System.EventHandler(this.button27_Click_3);
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.Transparent;
+            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Location = new System.Drawing.Point(25, 283);
+            this.button28.Margin = new System.Windows.Forms.Padding(4);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(383, 38);
+            this.button28.TabIndex = 43;
+            this.button28.UseVisualStyleBackColor = false;
+            this.button28.Click += new System.EventHandler(this.button28_Click_3);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(131, 211);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(236, 33);
+            this.textBox9.TabIndex = 42;
+            this.textBox9.Visible = false;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "15 minutos antes",
+            "30 minutos antes",
+            "1 hora antes",
+            "2 horas antes",
+            "6 horas antes",
+            "12 horas antes",
+            "24 horas antes"});
+            this.comboBox2.Location = new System.Drawing.Point(208, 174);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(160, 24);
+            this.comboBox2.TabIndex = 42;
+            this.comboBox2.Visible = false;
+            // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.Transparent;
+            this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button29.FlatAppearance.BorderSize = 0;
+            this.button29.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button29.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.Location = new System.Drawing.Point(303, 89);
+            this.button29.Margin = new System.Windows.Forms.Padding(4);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(105, 36);
+            this.button29.TabIndex = 41;
+            this.button29.UseVisualStyleBackColor = false;
+            this.button29.Click += new System.EventHandler(this.button29_Click_3);
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.Transparent;
+            this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button30.FlatAppearance.BorderSize = 0;
+            this.button30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.Location = new System.Drawing.Point(25, 89);
+            this.button30.Margin = new System.Windows.Forms.Padding(4);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(96, 31);
+            this.button30.TabIndex = 40;
+            this.button30.UseVisualStyleBackColor = false;
+            this.button30.Click += new System.EventHandler(this.button30_Click_3);
+            // 
             // calendario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -792,15 +769,16 @@ namespace ProyectoBebe
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(835, 396);
+            this.Controls.Add(this.panelrecordatorio);
+            this.Controls.Add(this.panelnota);
             this.Controls.Add(this.panelcitamedica);
             this.Controls.Add(this.panelvacunas);
-            this.Controls.Add(this.panelnota);
             this.Controls.Add(this.panelmedicamento);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button9);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
@@ -810,8 +788,6 @@ namespace ProyectoBebe
             this.Load += new System.EventHandler(this.calendario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.panelmedicamento.ResumeLayout(false);
             this.panelmedicamento.PerformLayout();
@@ -836,9 +812,6 @@ namespace ProyectoBebe
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
@@ -869,6 +842,8 @@ namespace ProyectoBebe
         private System.Windows.Forms.Button buttonguardarcit;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button button89;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panelrecordatorio;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button28;
@@ -876,6 +851,5 @@ namespace ProyectoBebe
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button89;
     }
 }
