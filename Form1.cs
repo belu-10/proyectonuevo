@@ -56,7 +56,7 @@ namespace ProyectoBebe
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            forminsesion inicio = new forminsesion();
+            calendario inicio = new calendario();
             inicio.Show();
             this.Hide();
         }

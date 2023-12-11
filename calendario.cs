@@ -17,8 +17,14 @@ namespace ProyectoBebe
         public calendario()
         {
             InitializeComponent();
+            for (Program.iglu = 0; Program.iglu < Program.fechapanel.Count; Program.iglu++)
+            {
+                ucpanelcalendar user = new ucpanelcalendar(flowLayoutPanel1);
+                user.Parent = flowLayoutPanel1;
+                user.Click += user_Click;
 
-          
+            }
+
         }
 
         private void user_Click(object sender, EventArgs e)
@@ -83,14 +89,10 @@ namespace ProyectoBebe
             groupBox2.Visible = true;
         }
 
-
         private void label1_Click(object sender, EventArgs e)
         {
-            string fecha = dateTimePicker1.Text;
-            label1.Text = (fecha);
+            
         }
-
-
         private void button1_Click(object sender, EventArgs e)
         {
            /*  panelnota.Visible = true;
@@ -116,12 +118,10 @@ namespace ProyectoBebe
             //esta biem
         }
 
-
         private void button15_Click(object sender, EventArgs e)
         {
             panelnota.Visible = false;
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
             panelmedicamento.Visible = true;
@@ -139,14 +139,10 @@ namespace ProyectoBebe
             //ESTÁ BIEN
         }
 
-
         private void button23_Click(object sender, EventArgs e)
         {
             groupBox1.Visible = true;
         }
-
-     
-
         private void button17_Click(object sender, EventArgs e)
         { 
         }
@@ -288,6 +284,8 @@ namespace ProyectoBebe
             Program.extra.Add(extraa);
 
             //aca medicamento
+
+          
         }
 
         private void panelvacunas_Paint(object sender, PaintEventArgs e)
@@ -352,13 +350,11 @@ namespace ProyectoBebe
             comboBox2.Visible = true;
             textBox9.Visible = true;
         }
-
         private void button29_Click_3(object sender, EventArgs e)
         {
             // BOTON NO QUIERO RECIBIR REC
             panelrecordatorio.Visible = false;
         }
-
         private void button28_Click_3(object sender, EventArgs e)
         {
             // BOTON GUARDAR REC
@@ -373,13 +369,10 @@ namespace ProyectoBebe
 
             for (Program.iglu = 0; Program.iglu < Program.fechapanel.Count; Program.iglu++)
             {
-              // f (Program.iglu = 0  Program.fechapanel.Count)
-                {
-                    ucpanelcalendar user = new ucpanelcalendar();
+                    ucpanelcalendar user = new ucpanelcalendar(flowLayoutPanel1);
                     user.Parent = flowLayoutPanel1;
                     user.Click += user_Click;
-                }
-                
+             
             }
         }
 
@@ -394,6 +387,19 @@ namespace ProyectoBebe
 
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            formrecuerdo rec = new formrecuerdo();
+            rec.Show();
+            this.Hide(); 
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            formhijoiniciar hijo = new formhijoiniciar();
+            hijo.Show();
+            this.Hide(); 
+        }
     }
 }
 

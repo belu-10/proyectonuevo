@@ -207,7 +207,7 @@ namespace ProyectoBebe
             this.panel1.Location = new System.Drawing.Point(-1, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(641, 396);
+            this.panel1.Size = new System.Drawing.Size(781, 396);
             this.panel1.TabIndex = 28;
             this.panel1.Visible = false;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
@@ -215,7 +215,7 @@ namespace ProyectoBebe
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(505, 192);
+            this.label5.Location = new System.Drawing.Point(498, 192);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 17);
