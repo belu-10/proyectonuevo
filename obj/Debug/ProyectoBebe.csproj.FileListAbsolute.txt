@@ -336,3 +336,7 @@ C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj
 C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
 C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.exe
 C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.pdb
+C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formperfil_tds_los_hijos.resources
+C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucpanelcalendar.resources
+C:\Users\48796306\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucperfilhijos.resources

@@ -17,6 +17,11 @@ namespace ProyectoBebe
         public calendario()
         {
             InitializeComponent();
+
+            pictureBox2.ImageLocation = (Program.foto[Program.indice - 1]);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.BringToFront(); 
+
             for (Program.iglu = 0; Program.iglu < Program.fechapanel.Count; Program.iglu++)
             {
                 ucpanelcalendar user = new ucpanelcalendar(flowLayoutPanel1);
@@ -24,6 +29,7 @@ namespace ProyectoBebe
                 user.Click += user_Click;
 
             }
+
 
         }
 
@@ -70,7 +76,6 @@ namespace ProyectoBebe
 
 
             //ESTA BIEN ES DE CITA MEDICA
-        
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -284,8 +289,6 @@ namespace ProyectoBebe
             Program.extra.Add(extraa);
 
             //aca medicamento
-
-          
         }
 
         private void panelvacunas_Paint(object sender, PaintEventArgs e)
@@ -398,6 +401,40 @@ namespace ProyectoBebe
             formhijoiniciar hijo = new formhijoiniciar();
             hijo.Show();
             this.Hide(); 
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            formhijoiniciar hijo = new formhijoiniciar();
+            hijo.Show();
+            this.Hide(); 
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            formrecuerdo rec = new formrecuerdo();
+            rec.Show();
+            this.Hide(); 
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            groupBox2.Visible = true; 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            groupBox2.Visible = true; 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            groupBox2.Visible = true; 
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            groupBox2.Visible = true; 
         }
     }
 }
