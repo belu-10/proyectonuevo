@@ -56,7 +56,7 @@ namespace ProyectoBebe
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            acercadelbebe hiniciar = new acercadelbebe();
+            forminsesion hiniciar = new forminsesion();
             hiniciar.Show();
             this.Hide();
         }
