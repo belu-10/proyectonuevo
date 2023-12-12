@@ -56,8 +56,8 @@ namespace ProyectoBebe
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            calendario inicio = new calendario();
-            inicio.Show();
+            acercadelbebe hiniciar = new acercadelbebe();
+            hiniciar.Show();
             this.Hide();
         }
     }

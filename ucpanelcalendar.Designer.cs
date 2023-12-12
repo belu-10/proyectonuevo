@@ -39,7 +39,7 @@ namespace ProyectoBebe
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 15);
+            this.label1.Location = new System.Drawing.Point(44, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 17);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace ProyectoBebe
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(145, 46);
+            this.label2.Location = new System.Drawing.Point(127, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 17);
             this.label2.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace ProyectoBebe
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(70, 76);
+            this.label3.Location = new System.Drawing.Point(48, 74);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 17);
             this.label3.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace ProyectoBebe
             this.button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(211, 90);
+            this.button27.Location = new System.Drawing.Point(182, 90);
             this.button27.Margin = new System.Windows.Forms.Padding(4);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(82, 33);
@@ -95,7 +95,7 @@ namespace ProyectoBebe
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "ucpanelcalendar";
-            this.Size = new System.Drawing.Size(293, 127);
+            this.Size = new System.Drawing.Size(268, 127);
             this.Load += new System.EventHandler(this.ucpanelcalendar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -35,8 +35,8 @@ namespace ProyectoBebe
 
         private void button27_Click(object sender, EventArgs e)
         {
-            contenedor.Controls.Remove(this); // EN TEORIA LO BORRA DEL PANEL PERO TENGO QUE PROBARLO
-            this.Dispose(); // LIMPIA LA INFO 
+            contenedor.Controls.Remove(this); // borrar de la bdd 
+            this.Dispose(); // 
 
         }
     }
