@@ -297,3 +297,42 @@ C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.exe
 C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.pdb
 C:\Users\belus\OneDrive\Escritorio\proyectonuevo\obj\Debug\ProyectoBebe.ucpanelcalendar.resources
 C:\Users\48246071\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucpanelcalendar.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\bin\Debug\ProyectoBebe.exe.config
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\bin\Debug\ProyectoBebe.exe
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\bin\Debug\ProyectoBebe.pdb
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.AssemblyReference.cache
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.acercadelbebe.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.calendar2.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.calendario.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.cuannaciobb.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.datosdelperfil.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.Form1.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.Formalbum.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formdiario.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formelegirbebe.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formextra.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formhelp.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formhijoiniciar.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.forminsesion.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formmomento.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formnuevorecuerdo.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formperfil_tds_los_hijos.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formperfil.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formrecuerdo.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.formregistrar.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.FORMSINUTILIDADSOLOPANEL.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.nombrebebe.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.nuevanotdiar.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.perfilhijo.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.Properties.Resources.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucalbum.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucpanelcalendar.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucperfilhijos.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.ucuser.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.UserControl1.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.veralbum.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.verdiario.resources
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.GenerateResource.cache
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.csproj.CoreCompileInputs.cache
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.exe
+C:\Users\Lujan Sarmoria\source\repos\proyectonuevo\obj\Debug\ProyectoBebe.pdb

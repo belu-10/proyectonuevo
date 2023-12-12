@@ -18,7 +18,7 @@ namespace ProyectoBebe
             InitializeComponent();
             this.contenedor = contenedor;
 
-            label1.Text = (Program.fecha[Program.iglu]);
+            label1.Text = (Program.fechapanel[Program.iglu]);
             label2.Text = (Program.especialidad[Program.iglu]);
             label3.Text = (Program.extra[Program.iglu]); 
         }
@@ -37,6 +37,7 @@ namespace ProyectoBebe
         {
             contenedor.Controls.Remove(this); // EN TEORIA LO BORRA DEL PANEL PERO TENGO QUE PROBARLO
             this.Dispose(); // LIMPIA LA INFO 
+
         }
     }
 }

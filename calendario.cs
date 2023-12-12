@@ -372,7 +372,6 @@ namespace ProyectoBebe
                     ucpanelcalendar user = new ucpanelcalendar(flowLayoutPanel1);
                     user.Parent = flowLayoutPanel1;
                     user.Click += user_Click;
-             
             }
         }
 
@@ -402,4 +401,3 @@ namespace ProyectoBebe
         }
     }
 }
-
