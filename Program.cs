@@ -31,7 +31,8 @@ namespace ProyectoBebe
         public static List<string> extra = new List<string>();
         public static int iglu = 0;
 
-        public static string id; 
+        public static string id;
+        public static string idBBregistro; 
 
         [STAThread]
         static void Main()
