@@ -58,6 +58,7 @@ namespace ProyectoBebe
             else
             {
                 label1.Text = Program.nota[Program.iman];
+                label2.Text = Program.fechadiario[Program.iman];
                 Program.iman++;
             }
         }
@@ -76,6 +77,7 @@ namespace ProyectoBebe
             else
             {
                 label1.Text = Program.nota[Program.iman];
+                label2.Text = Program.fechadiario[Program.iman];
                 Program.iman--;
             }
         }

@@ -8,27 +8,51 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Data.OleDb; 
 
 
 namespace ProyectoBebe
 {
     public partial class formhijoiniciar : Form
     {
+        string sql;
+        OleDbConnection cn = new OleDbConnection();
+        OleDbCommand cmd;
+        OleDbDataAdapter da;
+        DataSet ds = new DataSet();
+        OleDbDataReader reader;
 
 
         public formhijoiniciar()
         {
+            
             InitializeComponent();
+            cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=./proyecto111.accdb;";
+            string idProgramString = Program.id;
+            int idUsuario = Convert.ToInt32(idProgramString);
+            string sql = "SELECT nombre, avataRuta  FROM bebe WHERE idUsuario  =  '"+idUsuario+"' " ;
 
-            for (Program.indice = 0; Program.indice < Program.nombre.Count; Program.indice++)
+            OleDbCommand cmd = new OleDbCommand(sql, cn);
+            da = new OleDbDataAdapter(cmd);
+            da.Fill(ds, "hijos");
+
+            for (int i = 0; i < ds.Tables["hijos"].Rows.Count ; i++)
             {
-                ucuser user = new ucuser();
-                user.Parent = flowLayoutPanel1;
-                user.Click += user_Click;
+                string avatar = ds.Tables["hijos"].Rows[i].Field<String>("avatarRuta");
+                string nombre = ds.Tables["hijos"].Rows[i].Field<String>("nombre");
+                Program.nombre.Add(nombre);
+                Program.foto.Add(avatar); 
+            }
+                for (Program.indice = 0; Program.indice < Program.nombre.Count; Program.indice++)
+                {
+                    ucuser user = new ucuser();
+                    user.Parent = flowLayoutPanel1;
+                    user.Click += user_Click;
+                }
 
             }
 
-        }
+        
 
         private void user_Click(object sender, EventArgs e)
         {
@@ -83,6 +107,7 @@ namespace ProyectoBebe
 
         private void formhijoiniciar_Load(object sender, EventArgs e)
         {
+     
 
 
         }

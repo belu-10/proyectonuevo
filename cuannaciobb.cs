@@ -72,12 +72,15 @@ namespace ProyectoBebe
             string fecha = dateTimePicker1.Text;
             Program.nacimiento.Add(fecha);
 
+            
+
+
             try
             {
                 cn.Open();
                 sql = "UPDATE bebe SET nacimiento = '" + fecha + "' dia = '" + diasInsercion + "' mes = '" + mesesInsercion + "' [año] ='" + añosInsercion + "' WHERE idUsuario = '" + Program.id + "' and  nombre = '" + Program.nombre + "' ";
                 cmd = new OleDbCommand(sql, cn);
-                cmd.ExecuteNonQuery(); 
+              
             }
             finally
             {
@@ -92,16 +95,20 @@ namespace ProyectoBebe
         }
         
 
-        private void cuannaciobb_Load(object sender, EventArgs e)
-        {
-            cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";
-        }
+        
 
         private void button3_Click(object sender, EventArgs e)
         {
             formperfil perfil = new formperfil();
             perfil.Show();
             this.Hide(); 
+        }
+
+        private void cuannaciobb_Load(object sender, EventArgs e)
+        {
+
+            cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=./proyecto111.accdb;";
+
         }
     }
 }
