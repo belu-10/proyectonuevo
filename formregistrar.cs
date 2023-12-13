@@ -70,9 +70,14 @@ namespace ProyectoBebe
                 cmd.ExecuteNonQuery();
 
                 sql = "SELECT ([id usuario]) FROM registro WHERE nombre = '" + usuario + "' and [contraseña] = '" + Contra + "' ";
-                // COMO MIERDA LO GUARDO Y LO MANDO A LA VARIABLE DEL PROGRAM 
-               // reader.Read["id "] = Program.id; 
-               // reader.Read ("[id usuario]") = Program.id; 
+                cmd = new OleDbCommand(sql, cn);
+                da = new OleDbDataAdapter(cmd);
+                da.Fill(ds, "idUser"); 
+                if (ds.Tables["idUser"].Rows.Count > 0)
+                {
+                    Program.id = ds.Tables["idUser"].Rows[0]["id usuario"].ToString(); 
+                }
+               
 
 
             }

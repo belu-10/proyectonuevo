@@ -56,7 +56,7 @@ namespace ProyectoBebe
 
         private void forminsesion_Load(object sender, EventArgs e)
         {
-           cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=./proyecto11.accdb;";
+           cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=./proyecto111.accdb;";
 
         }
 

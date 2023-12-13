@@ -13,8 +13,8 @@ namespace ProyectoBebe
 {
     public partial class nombrebebe : Form
     {
-        string nombre; 
-
+        string nombre;
+        int idInt; 
         string sql;
         OleDbConnection cn = new OleDbConnection();
         OleDbCommand cmd;
@@ -46,7 +46,8 @@ namespace ProyectoBebe
             try
             {
                 cn.Open();
-                sql = "INSERT INTO bebe (nombre, idUsuario) VALUES ('" + nombre + "', '"+Program.id+"') ";
+                idInt = Convert.ToInt32(Program.id); 
+                sql = "INSERT INTO bebe (nombre, idUsuario) VALUES ('" + nombre + "', '"+idInt+"') ";
                 OleDbCommand cmd = new OleDbCommand(sql, cn);
                 cmd.ExecuteNonQuery();
                 cn.Close(); 
