@@ -14,8 +14,8 @@ namespace ProyectoBebe
     public partial class formregistrar : Form
     {
         public string Contra;
-        public string usuario; 
-        public string correo; 
+        public string usuario;
+        public string correo;
 
         string sql;
         OleDbConnection cn = new OleDbConnection();
@@ -30,13 +30,13 @@ namespace ProyectoBebe
 
         private void formregistrar_Load(object sender, EventArgs e)
         {
-                    cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";       
+            cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";
 
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -46,15 +46,15 @@ namespace ProyectoBebe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            forminsesion iniciar = new forminsesion(); 
+            forminsesion iniciar = new forminsesion();
             iniciar.Show();
-            this.Hide(); 
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             acercadelbebe acerca = new acercadelbebe();
-            acerca.Show(); 
+            acerca.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -70,14 +70,14 @@ namespace ProyectoBebe
                 OleDbCommand cmdInsert = new OleDbCommand(sql, cn);
                 cmdInsert.ExecuteNonQuery();
 
-                sql = "SELECT [idUser] FROM registro WHERE nombre = '" + usuario + "' AND [contraseña] = '" + Contra + "'";
+                sql = "SELECT [IdUser] FROM registro WHERE nombre = '" + usuario + "' AND [contraseña] = '" + Contra + "'";
                 OleDbCommand cmdSelect = new OleDbCommand(sql, cn);
                 da = new OleDbDataAdapter(cmdSelect);
-                da.Fill(ds, "idUser");
+                da.Fill(ds, "IdUser");
 
-                if (ds.Tables["idUser"].Rows.Count > 0)
+                if (ds.Tables["IdUser"].Rows.Count > 0)
                 {
-                    Program.id = ds.Tables["idUser"].Rows[0]["idUser"].ToString();
+                    Program.id = ds.Tables["IdUser"].Rows[0]["IdUser"].ToString();
                 }
             }
             catch (OleDbException ex)
@@ -97,4 +97,3 @@ namespace ProyectoBebe
 
     }
 }
-

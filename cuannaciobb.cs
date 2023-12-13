@@ -31,35 +31,57 @@ namespace ProyectoBebe
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
+
+           // DateTime fechaseleccionada = dateTimePicker1.Value;
+
+           // TimeSpan diferencia = DateTime.Now - fechaseleccionada;
+
+           // int años = (int)(diferencia.Days / 365.25); //promedio de días en un año
+           // string añosS = Convert.ToString(años); //esta variable es la que se tiene que mostrar en el label1 (form acerca del bb)
+            
+           // int meses = (int)((diferencia.Days % 365.25) / 30.44); // 30.44 es el promedio de dias en un mes
+           //string mesesS =  Convert.ToString(meses);  //esta variable es la que se tiene que mostrar en el label2 (form acerca del bb)
+
+           // int dias = diferencia.Days % 30;
+           //string diasS = Convert.ToString(dias); //esta variable es la que se tiene que mostrar en el label3 (form acerca del bb)
+
+           // diasInsercion = diasS;
+           // mesesInsercion = mesesS;
+           // añosInsercion = añosS; 
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             DateTime fechaseleccionada = dateTimePicker1.Value;
 
             TimeSpan diferencia = DateTime.Now - fechaseleccionada;
 
             int años = (int)(diferencia.Days / 365.25); //promedio de días en un año
             string añosS = Convert.ToString(años); //esta variable es la que se tiene que mostrar en el label1 (form acerca del bb)
-            
+
             int meses = (int)((diferencia.Days % 365.25) / 30.44); // 30.44 es el promedio de dias en un mes
-           string mesesS =  Convert.ToString(meses);  //esta variable es la que se tiene que mostrar en el label2 (form acerca del bb)
+            string mesesS = Convert.ToString(meses);  //esta variable es la que se tiene que mostrar en el label2 (form acerca del bb)
 
             int dias = diferencia.Days % 30;
-           string diasS = Convert.ToString(dias); //esta variable es la que se tiene que mostrar en el label3 (form acerca del bb)
+            string diasS = Convert.ToString(dias); //esta variable es la que se tiene que mostrar en el label3 (form acerca del bb)
 
             diasInsercion = diasS;
             mesesInsercion = mesesS;
-            añosInsercion = añosS; 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
+            añosInsercion = añosS;
             string fecha = dateTimePicker1.Text;
             Program.nacimiento.Add(fecha);
 
             try
             {
+                cn.Open();
                 sql = "UPDATE bebe SET nacimiento = '" + fecha + "' dia = '" + diasInsercion + "' mes = '" + mesesInsercion + "' [año] ='" + añosInsercion + "' WHERE idUsuario = '" + Program.id + "' and  nombre = '" + Program.nombre + "' ";
+                cmd = new OleDbCommand(sql, cn);
+                cmd.ExecuteNonQuery(); 
             }
             finally
             {
+                cn.Close(); 
                 formelegirbebe elegir = new formelegirbebe();
                 elegir.Show();
                 this.Hide();

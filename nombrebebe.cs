@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb; 
+using System.Data.OleDb;
 
 namespace ProyectoBebe
 {
     public partial class nombrebebe : Form
     {
         string nombre;
-        int idInt; 
+        int idInt;
         string sql;
         OleDbConnection cn = new OleDbConnection();
         OleDbCommand cmd;
@@ -22,18 +22,18 @@ namespace ProyectoBebe
         public nombrebebe()
         {
             InitializeComponent();
-             nombre = textBox1.Text;
+            nombre = textBox1.Text;
 
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Nombrebebe_Load(object sender, EventArgs e)
         {
-        
+
 
         }
 
@@ -43,14 +43,16 @@ namespace ProyectoBebe
 
             nombre = textBox1.Text;
             Program.nombre.Add(nombre);
+            idInt = Convert.ToInt32(Program.id);
+
             try
             {
                 cn.Open();
-                idInt = Convert.ToInt32(Program.id); 
-                sql = "INSERT INTO bebe (nombre, idUsuario) VALUES ('" + nombre + "', '"+idInt+"') ";
+
+                sql = "INSERT INTO bebe (idUsuario, nombre) VALUES ('" + idInt + "', '" + nombre + "') ";
                 OleDbCommand cmd = new OleDbCommand(sql, cn);
                 cmd.ExecuteNonQuery();
-                cn.Close(); 
+                cn.Close();
             }
             finally
             {
@@ -58,9 +60,9 @@ namespace ProyectoBebe
                 cnbb.Show();
                 this.Hide();
             }
-           
 
-            
+
+
 
         }
 
@@ -68,7 +70,7 @@ namespace ProyectoBebe
         {
             formhijoiniciar hijo = new formhijoiniciar();
             hijo.Show();
-            this.Hide(); 
+            this.Hide();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

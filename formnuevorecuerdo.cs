@@ -72,15 +72,7 @@ namespace ProyectoBebe
                 albumm.Show();
                 this.Hide();
             }
-            string titulo = textBox1.Text;
-            Program.titulo.Add(titulo);
-
-            string fecha = dateTimePicker1.Text;
-            Program.fecha.Add(fecha);
-
-            string album = pictureBox1.ImageLocation;
-            Program.album.Add(album);
-
+            
         
 
         }
