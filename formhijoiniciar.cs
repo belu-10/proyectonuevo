@@ -30,7 +30,7 @@ namespace ProyectoBebe
             cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=./proyecto111.accdb;";
             string idProgramString = Program.id;
             int idUsuario = Convert.ToInt32(idProgramString);
-            string sql = "SELECT nombre, avataRuta  FROM bebe WHERE idUsuario  =  '"+idUsuario+"' " ;
+            string sql = "SELECT nombre, avataRuta  FROM bebe WHERE idUsuario  =  "+idUsuario+" " ;
 
             OleDbCommand cmd = new OleDbCommand(sql, cn);
             da = new OleDbDataAdapter(cmd);
@@ -38,7 +38,7 @@ namespace ProyectoBebe
 
             for (int i = 0; i < ds.Tables["hijos"].Rows.Count ; i++)
             {
-                string avatar = ds.Tables["hijos"].Rows[i].Field<String>("avatarRuta");
+                string avatar = ds.Tables["hijos"].Rows[i].Field<String>("avataRuta");
                 string nombre = ds.Tables["hijos"].Rows[i].Field<String>("nombre");
                 Program.nombre.Add(nombre);
                 Program.foto.Add(avatar); 

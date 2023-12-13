@@ -47,7 +47,7 @@ namespace ProyectoBebe
 
             cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";
 
-            sql = "SELECT (nombre) FROM bebe WHERE id = '" + Program.idBBregistro + "'";
+            sql = "SELECT (nombre) FROM bebe WHERE id = " + Convert.ToInt32(Program.idBBregistro) + ";";
             cmd = new OleDbCommand(sql, cn);
             da = new OleDbDataAdapter(cmd);
             da.Fill(ds, "nombre");
@@ -56,7 +56,7 @@ namespace ProyectoBebe
                 label4.Text = ds.Tables["nombre"].Rows[0]["nombre"].ToString();
             }
 
-            sql = "SELECT (nacimiento) FROM bebe WHERE id = '" + Program.idBBregistro + "'"; 
+            sql = "SELECT (nacimiento) FROM bebe WHERE id = " + Convert.ToInt32(Program.idBBregistro) + ";"; 
             cmd = new OleDbCommand(sql, cn);
             da = new OleDbDataAdapter(cmd);
             da.Fill(ds, "nacimiento");
