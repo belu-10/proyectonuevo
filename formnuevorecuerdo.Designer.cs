@@ -57,6 +57,7 @@ namespace ProyectoBebe
             this.textBox1.Size = new System.Drawing.Size(491, 49);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Titulo..";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox1
             // 

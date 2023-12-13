@@ -7,11 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb; 
 
 namespace ProyectoBebe
 {
     public partial class acercadelbebe : Form
     {
+
+        string sql;
+        OleDbConnection cn = new OleDbConnection();
+        OleDbCommand cmd;
+        OleDbDataAdapter da;
+        DataSet ds = new DataSet();
+        OleDbDataReader reader;
+
+       
+
         public acercadelbebe()
         {
             InitializeComponent();
@@ -28,9 +39,36 @@ namespace ProyectoBebe
           pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
 
 
-        // ESTO ES PARA ACTUALIZAR ALGUNOS DATOS
-          label4.Text = Program.nombre[Program.indice-1]; 
-          label5.Text = Program.nacimiento[Program.indice-1];
+            // ESTO ES PARA ACTUALIZAR ALGUNOS DATOS
+
+
+            // label4.Text = Program.nombre[Program.indice-1];
+            //label5.Text = Program.nacimiento[Program.indice - 1];
+
+            cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";
+
+            sql = "SELECT (nombre) FROM bebe WHERE id = '" + Program.idBBregistro + "'";
+            cmd = new OleDbCommand(sql, cn);
+            da = new OleDbDataAdapter(cmd);
+            da.Fill(ds, "nombre");
+            if (ds.Tables["nombre"].Rows.Count > 0)
+            {
+                label4.Text = ds.Tables["nombre"].Rows[0]["nombre"].ToString();
+            }
+
+            sql = "SELECT (nacimiento) FROM bebe WHERE id = '" + Program.idBBregistro + "'"; 
+            cmd = new OleDbCommand(sql, cn);
+            da = new OleDbDataAdapter(cmd);
+            da.Fill(ds, "nacimiento");
+            if (ds.Tables["nacimiento"].Rows.Count > 0)
+            {
+                label5.Text = ds.Tables["nacimiento"].Rows[0]["nacimiento"].ToString();
+            }
+
+
+
+
+            
 
 
 
@@ -139,6 +177,7 @@ namespace ProyectoBebe
 
         private void label4_Click(object sender, EventArgs e)
         {
+
             textBox1.Visible = true;
             textBox1.Text = Program.nombre[Program.indice-1];
             label4.Visible = false; 
@@ -169,6 +208,11 @@ namespace ProyectoBebe
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

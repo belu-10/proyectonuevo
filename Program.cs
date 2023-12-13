@@ -32,7 +32,8 @@ namespace ProyectoBebe
         public static int iglu = 0;
 
         public static string id;
-        public static string idBBregistro; 
+        public static string idBBregistro;
+        public static string rutaFoto; 
 
         [STAThread]
         static void Main()

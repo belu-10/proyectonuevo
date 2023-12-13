@@ -7,12 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb; 
 
 namespace ProyectoBebe
 {
     public partial class formnuevorecuerdo : Form
+
     {
+        string sql;
+        OleDbConnection cn = new OleDbConnection();
+        OleDbCommand cmd;
+        OleDbDataAdapter da;
+        DataSet ds = new DataSet();
+        OleDbDataReader reader;
         public formnuevorecuerdo()
+
         {
             InitializeComponent();
 
@@ -32,13 +41,37 @@ namespace ProyectoBebe
                 {
                     string rutaImagen = openFileDialog.FileName;
                     pictureBox1.Image = Image.FromFile(rutaImagen);
+                    Program.rutaFoto = rutaImagen; 
                 }
             }
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
+            string titulo = textBox1.Text;
+          //  Program.titulo.Add(titulo);
 
+            string fecha = dateTimePicker1.Text;
+           // Program.fecha.Add(fecha);
+
+            string album = pictureBox1.ImageLocation;
+          //  Program.album.Add(album);
+
+            try
+            {
+                cn.Open();
+                sql = "INSERT INTO foto (pie de imagen, imagenURL, fecha) VALUES ('" + titulo + "', '"+Program.rutaFoto+"', '"+fecha+"')";
+                cmd = new OleDbCommand(sql, cn);
+                cmd.ExecuteNonQuery(); 
+
+            }
+            finally
+            {
+                cn.Close(); 
+                Formalbum albumm = new Formalbum();
+                albumm.Show();
+                this.Hide();
+            }
             string titulo = textBox1.Text;
             Program.titulo.Add(titulo);
 
@@ -48,14 +81,13 @@ namespace ProyectoBebe
             string album = pictureBox1.ImageLocation;
             Program.album.Add(album);
 
-            Formalbum albumm = new Formalbum();
-            albumm.Show();
-            this.Hide();
+        
 
         }
 
         private void formnuevorecuerdo_Load(object sender, EventArgs e)
         {
+         cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";
 
         }
 
@@ -79,6 +111,11 @@ namespace ProyectoBebe
             Formalbum album = new Formalbum();
             album.Show();
             this.Hide(); 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

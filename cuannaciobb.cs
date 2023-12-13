@@ -72,7 +72,7 @@ namespace ProyectoBebe
 
         private void cuannaciobb_Load(object sender, EventArgs e)
         {
-            cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto11.accdb;";
+            cn.ConnectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source =./proyecto111.accdb;";
         }
 
         private void button3_Click(object sender, EventArgs e)

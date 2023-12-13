@@ -21,8 +21,10 @@ namespace ProyectoBebe
         OleDbDataAdapter da;
         DataSet ds = new DataSet();
         OleDbDataReader reader;
-        bool existe; 
-     
+        bool existe;
+
+         public string Contra; 
+         public string usuario; 
         public forminsesion()
         {
             InitializeComponent(); 
@@ -64,15 +66,35 @@ namespace ProyectoBebe
         {
 
 
+            usuario = textBox1.Text;
+            Contra = textBox2.Text;
             try
             {
                 cn.Open();
-                sql = "SELECT nombre,[contraseña]  FROM registro WHERE nombre = '" + textBox1.Text + "' and [contraseña] = '" + textBox2.Text + "' ";
+
+                sql = "SELECT nombre,[contraseña]  FROM registro WHERE nombre = '" + usuario + "' and [contraseña] = '" + Contra + "' ";
                 cmd = new OleDbCommand(sql, cn);
                 reader = cmd.ExecuteReader();
                 existe = reader.HasRows;
+
+                cn.Close();
+
                 if (existe)
                 {
+                    cn.Open();
+
+                    sql = "SELECT [idUser] FROM registro WHERE nombre = '" + usuario + "' AND [contraseña] = '" + Contra + "'";
+                    OleDbCommand cmdSelect = new OleDbCommand(sql, cn);
+                    da = new OleDbDataAdapter(cmdSelect);
+                    da.Fill(ds, "idUser");
+
+                    if (ds.Tables["idUser"].Rows.Count > 0)
+                    {
+                        Program.id = ds.Tables["idUser"].Rows[0]["idUser"].ToString();
+                    }
+
+                    cn.Close();
+
                     MessageBox.Show("bienvenid@ " + textBox1.Text + "!");
                     formhijoiniciar hiniciar = new formhijoiniciar();
                     hiniciar.Show();
