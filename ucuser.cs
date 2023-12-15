@@ -17,9 +17,9 @@ namespace ProyectoBebe
         {
             InitializeComponent();
 
-           label1.Text = (Program.nombre[Program.indice]);
-           pictureBox1.ImageLocation = (Program.foto[Program.indice]);
-           pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+         //  label1.Text = (Program.nombre[Program.indice]);
+        //   pictureBox1.ImageLocation = (Program.foto[Program.indice]);
+        //   pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
         }
 

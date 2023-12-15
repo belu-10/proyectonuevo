@@ -26,11 +26,7 @@ namespace ProyectoBebe
         private void button1_Click(object sender, EventArgs e)
         { 
 
-            formhijoiniciar iniciar = new formhijoiniciar();
-            iniciar.Show();
-            this.Hide();
-
-
+           
             try
             {
                 cn.Open();
@@ -44,6 +40,11 @@ namespace ProyectoBebe
             finally
             {
                 cn.Close();
+                formhijoiniciar iniciar = new formhijoiniciar();
+                iniciar.Show();
+                this.Hide();
+
+
 
             }
 
